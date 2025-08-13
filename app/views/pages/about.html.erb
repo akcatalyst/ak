@@ -1,0 +1,49 @@
+<div class="max-w-4xl mx-auto space-y-8">
+  <div class="text-center">
+    <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">About Akcatalyst</h1>
+    <p class="text-xl text-gray-600 leading-relaxed">
+      We're building the future with modular technology solutions that can adapt and grow with your needs.
+    </p>
+  </div>
+
+  <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-8">
+    <h2 class="text-2xl font-bold text-gray-900 mb-6">Our Mission</h2>
+    <p class="text-gray-600 leading-relaxed mb-6">
+      To create flexible, scalable applications that can be easily customized and extended through a modular architecture. 
+      Each module is designed to be self-contained, making it simple to add, remove, or modify functionality without affecting the core system.
+    </p>
+    <p class="text-gray-600 leading-relaxed">
+      Our approach ensures that your application can evolve with your business needs, whether that means adding new features, 
+      supporting new markets, or scaling to handle increased demand.
+    </p>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
+      <h3 class="text-xl font-semibold text-gray-900 mb-4">Modular Design</h3>
+      <p class="text-gray-600">
+        Each module operates independently with its own routes, controllers, models, and views. 
+        This makes the system highly maintainable and allows for easy customization.
+      </p>
+    </div>
+    
+    <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
+      <h3 class="text-xl font-semibold text-gray-900 mb-4">Modern Technology</h3>
+      <p class="text-gray-600">
+        Built with Rails 8, Hotwire, Tailwind CSS, and Stimulus JS for a modern, responsive, 
+        and interactive user experience.
+      </p>
+    </div>
+  </div>
+
+  <div class="bg-blue-50 rounded-xl p-8 text-center">
+    <h2 class="text-2xl font-bold text-gray-900 mb-4">Ready to Get Started?</h2>
+    <p class="text-gray-600 mb-6">
+      Explore our modules and see how they can enhance your application.
+    </p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      <%= link_to "View Modules", "#", class: "bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition duration-200" %>
+      <%= link_to "Contact Us", contact_path, class: "border border-blue-300 hover:border-blue-400 text-blue-700 hover:text-blue-800 font-semibold py-3 px-6 rounded-lg transition duration-200" %>
+    </div>
+  </div>
+</div> 
